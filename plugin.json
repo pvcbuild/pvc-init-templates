@@ -3,9 +3,7 @@
     "replacementExtensions": [".cs", ".csproj", ".nuspec", ".sln", "LICENSE"],
     "config": {
         "pluginName": null,
-        "license": null,
-        "CurrentYear": "2014",
-        "CopyrightHolder": "Brandon Stirnaman"
+        "license": null
     },
     "prompts": {
         "Plugin Name: ": {
