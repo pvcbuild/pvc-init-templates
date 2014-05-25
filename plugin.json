@@ -7,8 +7,7 @@
     },
     "prompts": {
         "Plugin Name: ": {
-            "field": "pluginName",
-            "validator": "ValidProjectName"
+            "field": "pluginName"
         },
         "License: ": {
             "field": "license",
