@@ -1,26 +1,26 @@
 {
-	"templateRepo": "https://github.com/pvcbuild/pvc-init-plugin.git",
+    "templateRepo": "https://github.com/pvcbuild/pvc-init-plugin.git",
     "replacementExtensions": [".cs", ".csproj", ".nuspec", ".sln", "LICENSE"],
-	"config": {
-		"pluginName": null,
-		"license": null,
+    "config": {
+        "pluginName": null,
+        "license": null,
         "CurrentYear": "2014",
         "CopyrightHolder": "Brandon Stirnaman"
-	},
-	"prompts": {
-		"Plugin Name: ": {
-			"field": "pluginName",
-			"validator": "ValidProjectName"
-		},
-		"License: ": {
-			"field": "license",
-			"options": [
-				[ "MIT" ],
-				[ "Apache 2", "Apache2" ],
-				[ "BSD" ],
-				[ "None (will add later)", null ]
-			],
-			"choose": "LICENSE"
-		}
-	}
+    },
+    "prompts": {
+        "Plugin Name: ": {
+            "field": "pluginName",
+            "validator": "ValidProjectName"
+        },
+        "License: ": {
+            "field": "license",
+            "options": [
+                ["MIT"],
+                ["Apache 2", "Apache2"],
+                ["BSD"],
+                ["None (will add later)", null]
+            ],
+            "choose": "LICENSE"
+        }
+    }
 }
