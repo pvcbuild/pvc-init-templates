@@ -1,6 +1,6 @@
 {
     "templateRepo": "https://github.com/pvcbuild/pvc-init-plugin.git",
-    "replacementExtensions": [".cs", ".csproj", ".nuspec", ".sln", "LICENSE"],
+    "replacementExtensions": [".cs", ".csproj", ".nuspec", ".sln", "LICENSE", ".md", ".csx"],
     "config": {
         "pluginName": null,
         "license": null
